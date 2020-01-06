@@ -1,0 +1,327 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-06T17:50:36.864Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11138317300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "user should be able to make purchases",
+        "description": "",
+        "id": "user-should-be-able-to-purchase-products;user-should-be-able-to-make-purchases;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 691836800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4836271700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"shoppingUrl\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shoppingUrl\"",
+                  "offset": 18
+                }
+              ],
+              "location": "UITest.user_navigates_to_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1390500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"student\" logins with valid credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 0
+                }
+              ],
+              "location": "UITest.logins_with_valid_credentials(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1682652700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user adds \"2\" of \"Tomato\" into cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Tomato\"",
+                  "offset": 17
+                }
+              ],
+              "location": "UITest.user_adds_of_into_cart(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 646946300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user proceeds to checkout",
+            "match": {
+              "location": "UITest.user_proceeds_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1349938000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user places order from \"United States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"United States\"",
+                  "offset": 23
+                }
+              ],
+              "location": "UITest.user_places_order_from(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66743700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that \"Thank you, your order has been placed successfully\nYou\u0027ll be redirected to Home page shortly!!\" is \"Thank you, your order has been placed successfully\u0026\u0026\u0026You\u0027ll be redirected to Home page shortly!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you, your order has been placed successfully\nYou\u0027ll be redirected to Home page shortly!!\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Thank you, your order has been placed successfully\u0026\u0026\u0026You\u0027ll be redirected to Home page shortly!!\"",
+                  "offset": 112
+                }
+              ],
+              "location": "UITest.verify_that_is(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@current"
+          },
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-06T17:50:57.316Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9244575300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "user should be able to make purchases",
+        "description": "",
+        "id": "user-should-be-able-to-purchase-products;user-should-be-able-to-make-purchases;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 707030800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4887941500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"shoppingUrl\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shoppingUrl\"",
+                  "offset": 18
+                }
+              ],
+              "location": "UITest.user_navigates_to_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"teacher\" logins with valid credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teacher\"",
+                  "offset": 0
+                }
+              ],
+              "location": "UITest.logins_with_valid_credentials(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3425242900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user adds \"5\" of \"Pumpkin\" into cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Pumpkin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "UITest.user_adds_of_into_cart(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664177900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user proceeds to checkout",
+            "match": {
+              "location": "UITest.user_proceeds_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1346888500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user places order from \"Turkey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Turkey\"",
+                  "offset": 23
+                }
+              ],
+              "location": "UITest.user_places_order_from(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55968000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that \"unsuccessfully\" is \"Thank you, your order has been placed successfully\u0026\u0026\u0026You\u0027ll be redirected to Home page shortly!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unsuccessfully\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Thank you, your order has been placed successfully\u0026\u0026\u0026You\u0027ll be redirected to Home page shortly!!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "UITest.verify_that_is(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@current"
+          },
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to purchase products",
+    "description": "",
+    "id": "user-should-be-able-to-purchase-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PurchaseTesting.feature",
+    "tags": []
+  }
+]

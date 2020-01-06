@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="40.787779">
+<testcase classname="User should be able to purchase products" name="user should be able to make purchases" time="20.450692">
+<system-out><![CDATA[Given user navigates to "shoppingUrl" page..................................passed
+And "student" logins with valid credentials.................................passed
+And user adds "2" of "Tomato" into cart.....................................passed
+And user proceeds to checkout...............................................passed
+When user places order from "United States".................................passed
+Then verify that "Thank you, your order has been placed successfully
+You'll be redirected to Home page shortly!!" is "Thank you, your order has been placed successfully&&&You'll be redirected to Home page shortly!!".passed
+]]></system-out>
+</testcase>
+<testcase classname="User should be able to purchase products" name="user should be able to make purchases 2" time="20.337087">
+<system-out><![CDATA[Given user navigates to "shoppingUrl" page..................................passed
+And "teacher" logins with valid credentials.................................passed
+And user adds "5" of "Pumpkin" into cart....................................passed
+And user proceeds to checkout...............................................passed
+When user places order from "Turkey"........................................passed
+Then verify that "unsuccessfully" is "Thank you, your order has been placed successfully&&&You'll be redirected to Home page shortly!!".passed
+]]></system-out>
+</testcase>
+</testsuite>
